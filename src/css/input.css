@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'urw';
+    src: url('./fonts/urw.ttf');
+}
+
+
+@layer components {
+    .navbar-dsktp {
+        @apply hover:bg-red-200 duration-300 hover:text-red-600 py-2 px-12 text-red-900 font-extralight;
+    } 
+
+    .navbar-resp {
+        @apply hover:bg-red-300 text-red-900 py-[20px] px-6 w-full;
+    }
+
+    .t-red5 {
+        @apply text-red-500;
+    }
+
+    .foot-chev {
+        @apply text-red-700;
+    }
+
+    .foot-menu {
+        @apply pl-2 hover:text-red-300 hover:underline;
+    }
+
+    .social-icon {
+        @apply w-10 h-10 rounded-full bg-red-500 hover:bg-red-600 mx-1 inline-block pt-[6px];
+    }
+
+    .foot-cpr {
+        @apply w-full bg-red-900 text-white px-10;
+    }
+
+    .foot-cpr1 {
+        @apply max-w-7xl flex flex-col sm:flex-row py-4 mx-auto justify-between items-center;
+    }
+
+    .btn-join {
+        @apply p-2 w-1/3 bg-red-500 text-white hover:bg-yellow-600;
+    }
+
+    .header-menu {
+        @apply mt-[180px] text-7xl font-bold text-center text-gray-900;
+    }
+
+    .pagination-btn {
+        @apply border border-red-200 px-4 py-2 hover:bg-red-200 duration-300 ease-in-out;
+    }
+
+    .grid-blog {
+        @apply grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-8;
+    }
+
+    .blog-card {
+        @apply text-center p-4 rounded-sm bg-gray-100 hover:bg-red-100 shadow-lg duration-500 ease-in-out;
+    }
+
+    .blog-readmore {
+        @apply px-4 py-2 mt-8 rounded-sm shadow-md text-white bg-red-500 hover:bg-red-400;
+    }   
+
+    .grid-product {
+        @apply grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 gap-8;
+    }
+    
+}
