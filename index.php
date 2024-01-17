@@ -26,8 +26,14 @@
         </div>
     </div>
     
-    <h1>Shop At Our Etsy</h1>
-        <a href="https://www.etsy.com/shop/EuFemeJewelry?ref=shop_sugg_market"></a>
+    <h1 class="mt-16 mb-16 text-center text-5xl font-semibold text-gray-900">Shop At Our Etsy</h1>
+    
+    <div class="mb-16 flex flex-col items-center justify-center">
+        <a href="https://www.etsy.com/shop/EuFemeJewelry?ref=shop_sugg_market" class="text-2xl">
+            <i class="fab fa-etsy fa-2xl" style="color: #ff7438;"></i>
+        </a>
+        <a href="" class="mt-4 px-4 py-2 shadow-md rounded-sm bg-amber-500 hover:bg-amber-400 text-white">Shop Now!</a>
+    </div>
 
 
 
