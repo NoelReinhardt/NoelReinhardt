@@ -37,9 +37,9 @@
                 <div class="mb-5">
                     <h4 class="pb-4 text-red-700 font-bold">Stay updated with us!</h4>
                     <p class="text-red-500 pb-2">Join with 10,000+ others and never miss out our spiritual journey</p>
-                    <form action="" class="flex flex-row flex-wrap">
-                        <input type="text" class="text-red-500 w-2/3 p-2 focus-border-yellow-500" placeholder="email@example.com">
-                        <button class="btn-join">Join Us</button>
+                    <form action="subscribersProcess" method="post" class="flex flex-row flex-wrap">
+                        <input type="text" name="email" class="text-red-500 w-2/3 p-2 focus-border-yellow-500" placeholder="email@example.com">
+                        <button type="submit" class="btn-join">Join Us</button>
                     </form>
                 </div>
             </div>
@@ -67,7 +67,7 @@
     </div>
 
     <div class="fixed bottom-8 right-8">
-        <a href="https://api.whatsapp.com/send?phone=6285157122289" target="_blank" rel="noopener noreferrer" class="bg-green-500 text-white p-4 rounded-full shadow-md hover:bg-green-600">
+        <a href="https://api.whatsapp.com/send?phone=6285157122289" target="_blank" rel="noopener noreferrer" class="bg-green-500 text-white px-4 py-5 rounded-full shadow-md hover:bg-green-600">
             <i class="fa-brands fa-whatsapp fa-2xl"></i>
         </a>
     </div>
