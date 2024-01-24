@@ -46,8 +46,8 @@
      ?>
         <!-- article detail -->
                 <article class="w-full px-8">
-                    <h1 class="mt-8 text-3xl font-bold mb-4 text-left tracking-tight"><?=$article_title?></h1>
-                    <p class="mt-8 text-gray-700 mb-16 text-justify indent-[50px] tracking-wide whitespace-break-spaces font-wadesans"><?=$article_description?></p>
+                    <h1 class="mt-8 text-3xl font-bold mb-4 text-left tracking-tight font-second"><?=$article_title?></h1>
+                    <p class="mt-8 text-gray-700 mb-16 text-justify text-3xl indent-[50px] tracking-wide whitespace-break-spaces font-second"><?=$article_description?></p>
                 </article>
 
             <!-- button back -->

@@ -1,0 +1,14 @@
+@font-face {
+    font-family: WadeSans;
+    font-style: normal;
+    src: url('../../static/fonts/WadeSans.ttf') format('truetype');
+
+}
+
+@font-face {
+    font-family: CaviarDreams;
+    font-style: normal;
+    src: url('../../static/fonts/CaviarDreams.ttf');
+    src: url('../../static/fonts/CaviarDreams.ttf') format('truetype');
+
+}

@@ -1,16 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&display=swap');
+@import url(font.css);
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
-    font-family: 'urw';
-    src: url('./fonts/urw.ttf');
-}
 
 
 @layer components {
     .navbar-dsktp {
-        @apply hover:bg-red-200 duration-300 hover:text-red-600 py-2 px-12 text-red-900 font-extralight;
+        @apply hover:bg-red-200 duration-300 hover:text-red-600 py-2 px-12 text-red-900;
     } 
 
     .navbar-resp {
@@ -68,5 +68,6 @@
     .grid-product {
         @apply grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 gap-8;
     }
+    
     
 }
